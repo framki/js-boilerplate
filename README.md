@@ -1,5 +1,7 @@
 # javascript boilerplate
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/framki/js-boilerplate.svg)](https://greenkeeper.io/)
+
 includes:
 
 - eslint

@@ -16,7 +16,8 @@ includes:
 
 - `git init` - run before install husky!
 - `yarn` to install packages
-- `yarn changelog` to create new changelog from scratch (v 1.0.0)
 - `yarn lint` to check js files with eslint + prettier
 - `yarn lint:write` to check js files with eslint + prettier and try to fix them
 - `yarn commit` run commitizen to commit changed files
+- `npm run release -- --first-release` to generate your changelog for your first release
+- `yarn release` to generate changelog

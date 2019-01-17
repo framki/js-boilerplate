@@ -2,7 +2,6 @@ module.exports = {
   plugins: ['prettier'],
   rules: {
     'prettier/prettier': 'error',
-    'no-param-reassign': 'off',
     'no-restricted-syntax': 'off',
     'max-len': ['error', 100, 2, { ignoreUrls: true, ignoreComments: true }],
     'no-console': process.env.NODE_ENV === 'production' ? 2 : 0

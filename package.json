@@ -53,6 +53,6 @@
     "lint-staged": "^8.1.4",
     "nodemon": "^1.18.10",
     "prettier": "^1.15.3",
-    "standard-version": "^4.4.0"
+    "standard-version": "^5.0.0"
   }
 }

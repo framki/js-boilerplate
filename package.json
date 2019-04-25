@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon --exec babel-node src/index.js",
+    "dev": "nodemon -r esm src/index.js",
     "lint": "eslint --debug src/",
     "lint:write": "eslint --fix src/",
     "prettier": "prettier --write src/**/*.js",
@@ -37,10 +37,6 @@
   "description": "",
   "dependencies": {},
   "devDependencies": {
-    "@babel/cli": "^7.4.3",
-    "@babel/core": "^7.4.3",
-    "@babel/node": "^7.2.2",
-    "@babel/preset-env": "^7.4.3",
     "@commitlint/cli": "^7.5.2",
     "@commitlint/config-conventional": "^7.5.0",
     "commitizen": "^3.1.1",
@@ -49,6 +45,7 @@
     "eslint-config-prettier": "^4.1.0",
     "eslint-plugin-import": "^2.17.0",
     "eslint-plugin-prettier": "^3.0.1",
+    "esm": "^3.2.22",
     "husky": "^2.0.0",
     "lint-staged": "^8.1.5",
     "nodemon": "^1.18.11",

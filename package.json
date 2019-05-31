@@ -37,7 +37,7 @@
   "description": "",
   "dependencies": {},
   "devDependencies": {
-    "@commitlint/cli": "^7.5.2",
+    "@commitlint/cli": "^8.0.0",
     "@commitlint/config-conventional": "^7.6.0",
     "commitizen": "^3.1.1",
     "eslint": "^5.16.0",

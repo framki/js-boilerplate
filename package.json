@@ -1,6 +1,6 @@
 {
   "name": "js_project_boilerplate",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon -r esm src/index.js",

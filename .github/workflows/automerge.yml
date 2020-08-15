@@ -25,4 +25,5 @@ jobs:
       uses: pascalgn/automerge-action@v0.9.0
       env:
         GITHUB_TOKEN: "${{ secrets.TOKEN }}"
+        MERGE_DELETE_BRANCH: true
 
